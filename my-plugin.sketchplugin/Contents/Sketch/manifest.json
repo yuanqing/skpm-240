@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "foo",
+      "identifier": "my-plugin.foo",
+      "script": "my-command.js"
+    },
+    {
+      "name": "bar",
+      "identifier": "my-plugin.bar",
+      "script": "my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "my-plugin",
+    "items": [
+      "my-plugin.foo",
+      "my-plugin.bar"
+    ]
+  },
+  "version": "0.1.0",
+  "description": "",
+  "name": "my-plugin",
+  "identifier": "my-plugin",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "yuanqing",
+  "authorEmail": "desk@yuanqing.sg"
+}
