@@ -3,15 +3,21 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-plugin.my-command-identifier",
+      "name": "foo",
+      "identifier": "my-plugin.foo",
       "script": "./my-command.js"
+    },
+    {
+      "name": "bar",
+      "identifier": "my-plugin.bar",
+      "script": "./bar/my-command.js"
     }
   ],
   "menu": {
     "title": "my-plugin",
     "items": [
-      "my-plugin.my-command-identifier"
+      "my-plugin.foo",
+      "my-plugin.bar"
     ]
   }
 }
